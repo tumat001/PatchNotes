@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/noteDisplay_nav_priorityPeriod_toggleAddRemove"
+        android:icon="@drawable/baseline_date_range_black_48"
+        android:title="@string/noteDisplay_nav_priorityPeriod_toggle"
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_priorityPeriod_edit"
+        android:title="@string/noteDisplay_nav_priorityPeriod_edit"
+        />
+
+    <item
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_priorityDay_toggleAddRemove"
+        android:icon="@drawable/baseline_event_black_48"
+        android:title="@string/noteDisplay_nav_priorityDay_toggle"
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_priorityDay_edit"
+        android:title="@string/noteDisplay_nav_priorityDay_edit"
+        />
+
+    <item
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_expirationPeriod_toggleAddRemove"
+        android:icon="@drawable/baseline_auto_delete_black_48"
+        android:title="@string/noteDisplay_nav_expirationPeriod_toggle"
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_expirationPeriod_edit"
+        android:title="@string/noteDisplay_nav_expirationPeriod_edit"
+        />
+
+    <item
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_manageCategory"
+        android:icon="@drawable/baseline_category_black_48dp"
+        android:title="@string/noteDisplay_nav_manageCategory_text"
+        />
+
+    <item
+        android:id="@+id/noteDisplay_nav_viewCategory"
+        android:title="@string/noteDisplay_nav_viewCategory_text"
+        />
+
+
+</menu>

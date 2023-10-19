@@ -1,0 +1,2 @@
+rootProject.name='PatchNotes'
+include ':app'

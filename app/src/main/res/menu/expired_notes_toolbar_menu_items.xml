@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItem_delete"
+        android:title="@string/main_toolbar_delete"
+        android:icon="@drawable/baseline_delete_white_48"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menuItem_deletionWarning"
+        android:title="@string/expiredNoteDisplay_deletionWarning"
+        android:icon="@drawable/baseline_warning_white_48dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menuItem_assessment"
+        android:title="@string/main_toolbar_filterDescription"
+        android:icon="@drawable/baseline_assessment_white_48"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menuItem_otherActions"
+        android:title="@string/main_toolbar_otherAction"
+        android:icon="@drawable/baseline_more_vert_white_48"
+        app:showAsAction="always"
+        />
+
+</menu>

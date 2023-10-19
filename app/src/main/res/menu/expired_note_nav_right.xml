@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navItem_deleteNotes"
+        android:title="@string/navItem_deleteAllNotes"
+        android:icon="@drawable/baseline_delete_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_blank"
+        android:title="@string/navItem_blankSpace"
+        />
+
+    <item
+        android:id="@+id/navItem_sortNotes"
+        android:title="@string/navItem_sortNotes"
+        android:icon="@drawable/baseline_sort_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_filterNotes"
+        android:title="@string/navItem_filterNotes"
+        android:icon="@drawable/baseline_filter_list_black_48"
+        />
+
+    <item
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/navItem_showDeletionThreshold"
+        android:icon="@drawable/baseline_timelapse_black_48dp"
+        android:title="@string/expiredNoteDisplay_showDeletionThreshold_text"
+        />
+
+    <item
+        android:id="@+id/navItem_changeDeletionThreshold"
+        android:icon="@drawable/baseline_more_time_black_48dp"
+        android:title="@string/expiredNoteDisplay_changeDeletionThreshold_text"
+        />
+
+</menu>

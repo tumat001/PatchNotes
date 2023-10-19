@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8400C3</color>
+    <color name="colorPrimaryOriginal">#6200EE</color>
+    <color name="colorPrimaryDark">#4B0082</color>
+    <color name="colorPrimaryDarkOriginal">#3700B3</color>
+    <color name="colorAccent">#F4A911</color>
+
+    <color name="colorPriority">#77FFFF00</color>
+    <color name="colorNoPriority">#00FFFFFF</color>
+    <color name="colorGray">#FF888888</color>
+    <color name="colorDarkGray">#FF555555</color>
+    <color name="colorAccentDark">#D39800</color>
+
+    <color name="categoryColorPrimary">#005AFF</color>
+    <color name="categoryColorPrimaryDark">#0000b7</color>
+    <color name="categoryColorAccent">#FFA500</color>
+    <color name="categoryColorDisabled">#FFDDDDDD</color>
+    <color name="categoryColorEnabled">#FFFFFFFF</color>
+
+    <color name="listChooserDialogHighlightColor">#77FFA500</color>
+
+    <color name="generic_transparent">#00FFFFFF</color>
+    <color name="generic_black">#000000</color>
+    <color name="generic_light_gray">#FFDDDDDD</color>
+</resources>

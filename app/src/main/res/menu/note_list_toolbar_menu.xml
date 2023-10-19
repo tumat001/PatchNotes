@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/noteList_toolbar_deleteSelected"
+        android:title="@string/main_toolbar_delete"
+        android:icon="@drawable/baseline_delete_white_48"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/noteList_toolbar_openDrawer"
+        android:title="@string/drawer_open"
+        android:icon="@drawable/baseline_settings_white_48dp"
+        app:showAsAction="always"
+        />
+
+</menu>

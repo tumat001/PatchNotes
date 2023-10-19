@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">PatchNotes</string>
+
+    <string name="about_about01">
+        app: version - 2.0\n
+        \n
+        date start: app: 21/05/2020, late pm\n
+        date complete: core &amp; mock database: 23/05/2020, late am\n
+        date start: app fragments: 23/05/2020, late am\n
+        date start: main act basic tie-up: 25/05/2020, late pm\n
+        date complete: delete func: 27/05/2020 late pm\n
+        date complete: sort func: 28/05/2020, mid pm\n
+        date complete: filter func: 30/05/2020, late pm\n
+        date complete: add/view func: 04/06/2020, mid pm\n
+        date start: the REAL database: 09/06/2020, late am\n
+        date start: implementing REAL database to core: 09/06/2020, mid pm\n
+        date complete: persistent saving notes: 09/06/2020, late pm\n
+        date complete: expiration: 10/06/2020, mid am\n
+        date complete: basic archive/unarchive: 10/06/2020, late pm\n
+        date complete: bunch of random fixes, time/date picking fix: 11/06/2020, late pm\n
+        date complete: core of adjustable deletion threshold: 12/06/2020, late pm\n
+        date complete: all of archives: 13/06/2020, late am\n
+        appVersion at this point: 1.0\n
+        \n
+        date complete: categories (no link to notes yet): 21/06/2020, late pm\n
+        date complete: categories (w/ link to notes): 29/06/2020, mid-late pm (big break)\n
+        appVersion at this point: 2.0\n
+        \n
+        date complete: list (some bug testing, might find more): 16/07/2020, late am\n
+        appVersion at this point: 3.0\n
+    </string>
+
+    <string name="info_infoAboutApp">
+        Dev: Matthieu Castro\n
+        \n
+        App Version: inDev 3.0
+    </string>
+
+    <string name="navItem_appInfo">App Build Info</string>
+    <string name="navItem_newNote">Create New Note</string>
+    <string name="navItem_deleteAllNotes">Delete Notes</string>
+    <string name="navItem_blankSpace"> </string>
+    <string name="navItem_sortNotes">Sort Notes</string>
+    <string name="navItem_filterNotes">Filter Notes</string>
+    <string name="navItem_toExpiredNotes">View Archived Notes</string>
+    <string name="navItem_toCategoryList">View Categories</string>
+
+    <string name="main_toolbar_filterDescription">Assessment</string>
+    <string name="main_toolbar_otherAction">…</string>
+    <string name="main_toolbar_cancelDelete">Cancel</string>
+    <string name="main_toolbar_delete">delete</string>
+
+    <string name="main_toast_noNotesSelectedToDelete">Nothing selected</string>
+    <string name="main_toast_noNotesToDelete">Nothing to delete</string>
+
+    <string name="deleteDialog_promptMessage">Delete selected items?</string>
+    <string name="deleteDialog_cancelButton">Cancel</string>
+    <string name="deleteDialog_deleteButton">Delete</string>
+
+    <string name="main_textViewCreateNotesHint">No notes to show</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- -->
+
+    <string name="expiredNoteDisplay_customTitle">Archives</string>
+    <string name="expiredNoteDisplay_changeDeletionThreshold_text">Change Deletion Threshold</string>
+    <string name="expiredNoteDisplay_showDeletionThreshold_text">Show Deletion Threshold</string>
+    <string name="expiredNoteDisplay_deletionWarning">Deletion Warning</string>
+
+    <!-- -->
+
+    <string name="noteDisplay_nav_priorityPeriod_text">Priority Period</string>
+    <string name="noteDisplay_nav_priorityPeriod_toggle">Toggle add/remove</string>
+    <string name="noteDisplay_nav_priorityPeriod_edit">Edit Priority Period</string>
+
+    <string name="noteDisplay_nav_priorityDay_text">Priority Days</string>
+    <string name="noteDisplay_nav_priorityDay_toggle">Toggle add/remove</string>
+    <string name="noteDisplay_nav_priorityDay_edit">Edit Priority Days</string>
+
+    <string name="noteDisplay_nav_expirationPeriod_text">Expiration Period</string>
+    <string name="noteDisplay_nav_expirationPeriod_toggle">Toggle add/remove</string>
+    <string name="noteDisplay_nav_expirationPeriod_edit">Edit Expiration Period</string>
+
+    <string name="noteDisplay_nav_manageCategory_text">Manage Note\'s Category</string>
+    <string name="noteDisplay_nav_viewCategory_text">View Note\'s Category</string>
+
+    <string name="noteDisplay_toolbar_noteSettings">Settings</string>
+    <string name="noteDisplay_toolbar_shareNote">Share</string>
+
+    <!-- -->
+
+    <string name="categoryDisplay_createCategoryHint">No categories to show</string>
+    <string name="categoryDisplay_customTitle">PatchCat</string>
+
+    <string name="cat_navItem_createCategory">Create New Category</string>
+    <string name="cat_navItem_deleteCategory">Delete Categories</string>
+    <string name="cat_navItem_sortCategory">Sort Categories</string>
+    <string name="cat_navItem_filterCategory">Filter Categories</string>
+
+    <string name="catManager_titleHint">Title…</string>
+    <string name="catManager_descriptionHint">Description…</string>
+
+    <string name="catManager_addSelfPriorityPeriod">Add Self Priority Period</string>
+    <string name="catManager_removeSelfPriorityPeriod">Remove Self Priority Period</string>
+    <string name="catManager_editSelfPriorityPeriod">Edit Self Priority Period</string>
+
+    <string name="catManager_addSelfPriorityDays">Add Self Priority Days</string>
+    <string name="catManager_removeSelfPriorityDays">Remove Self Priority Days</string>
+    <string name="catManager_editSelfPriorityDays">Edit Self Priority Days</string>
+
+    <string name="catManager_addSelfExpirationPeriod">Add Self Expiration Period</string>
+    <string name="catManager_removeSelfExpirationPeriod">Remove Self Expiration Period</string>
+    <string name="catManager_editSelfExpirationPeriod">Edit Self Expiration Period</string>
+
+    <string name="catManager_autoFillText">AutoFill Values</string>
+    <string name="catManager_enableAutoFillText">Enable AutoFill Values</string>
+    <string name="catManager_autoFillPriorityPeriod">Configure AutoFill Priority Period</string>
+    <string name="catManager_autoFillPriorityDay">Configure AutoFill Priority Days</string>
+    <string name="catManager_autoFillExpirationPeriod">Configure AutoFill Expiration Period</string>
+
+    <!-- -->
+
+    <string name="noteListDisplay_titleHint">Title…</string>
+    <string name="noteListDisplay_descriptionHint">Description…</string>
+
+    <string name="noteListDisplay_nav_setListType_text">Set List Type</string>
+
+    <string name="noteListDisplay_nav_toDeleteMode">Delete List Entries</string>
+
+    <string name="noteListDisplay_nav_priorityPeriod_toggle">Toggle add/remove</string>
+    <string name="noteListDisplay_nav_priorityPeriod_edit">Edit Priority Period</string>
+
+    <string name="noteListDisplay_nav_priorityDay_toggle">Toggle add/remove</string>
+    <string name="noteListDisplay_nav_priorityDay_edit">Edit Priority Days</string>
+
+    <string name="noteListDisplay_nav_expirationPeriod_toggle">Toggle add/remove</string>
+    <string name="noteListDisplay_nav_expirationPeriod_edit">Edit Expiration Period</string>
+
+    <string name="noteListDisplay_nav_manageCategory_text">Manage Note\'s Category</string>
+    <string name="noteListDisplay_nav_viewCategory_text">View Note\'s Category</string>
+
+    <string name="noteListDisplay_toolbar_noteSettings">Settings</string>
+
+    <!-- -->
+
+    <string name="noteListEntry_addNewEntry">Add</string>
+
+    <string name="noteListEntry_noEntryToDelete">No list item to delete</string>
+
+    <!-- -->
+    <string name="info_priority">
+        Priority is an attribute a note can have. This makes the note get highlighted, and is placed at the top of the list.\n
+        There are two ways to make a note be in priority. The first way is to set a note\'s priority period. The second way is to
+        set a note\'s priority days.
+    </string>
+    <string name="info_priorityPeriod">
+        Priority period is a time period assigned to a note where, once past, makes the note get highlighted,
+        and is placed at the top of the list.\n
+        By default, a note has no priority period. You can however set a note to have a priority period, making it prominent when
+        you need it the most.
+    </string>
+    <string name="info_priorityDays">
+        Priority days are days assigned to a note, where if the day today is among one of the priority days, makes the note get highlighted,
+        and is placed at the top of the list.\n
+        By default, a note has no priority days.
+    </string>
+    <string name="info_expirationPeriod">
+        Expiration period is a time period assigned to a note where, once past, moves this note to the archives.\n
+        The archives can be visited by using the navigation view at the right, the same panel where "create note" lies.
+        Archived notes can be retrieved anytime.\n
+        Archived notes will be deleted three days by default after staying there. This value can be adjusted however.
+    </string>
+    <string name="info_category">
+
+    </string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cat_navItem_createCategory"
+        android:icon="@drawable/baseline_add_black_48"
+        android:title="@string/cat_navItem_createCategory"
+        />
+
+    <item
+        android:id="@+id/navItem_deleteNotes"
+        android:icon="@drawable/baseline_delete_black_48"
+        android:title="@string/cat_navItem_deleteCategory"
+        />
+
+    <item
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/navItem_sortNotes"
+        android:icon="@drawable/baseline_sort_black_48"
+        android:title="@string/cat_navItem_sortCategory"
+        />
+
+    <item
+        android:id="@+id/navItem_filterNotes"
+        android:icon="@drawable/baseline_filter_list_black_48"
+        android:title="@string/cat_navItem_filterCategory"
+        />
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navItem_appInfo"
+        android:title="@string/navItem_appInfo"
+        android:icon="@drawable/baseline_developer_board_black_48dp"
+        />
+
+    <item
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/navItem_newNote"
+        android:title="@string/navItem_newNote"
+        android:icon="@drawable/baseline_create_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_deleteNotes"
+        android:title="@string/navItem_deleteAllNotes"
+        android:icon="@drawable/baseline_delete_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_blank"
+        android:title="@string/navItem_blankSpace"
+        />
+
+    <item
+        android:id="@+id/navItem_sortNotes"
+        android:title="@string/navItem_sortNotes"
+        android:icon="@drawable/baseline_sort_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_filterNotes"
+        android:title="@string/navItem_filterNotes"
+        android:icon="@drawable/baseline_filter_list_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_blank02"
+        android:title="@string/navItem_blankSpace"
+        />
+
+    <item
+        android:id="@+id/navItem_toExpiredNotes"
+        android:title="@string/navItem_toExpiredNotes"
+        android:icon="@drawable/baseline_archive_black_48"
+        />
+
+    <item
+        android:id="@+id/navItem_toCategoryList"
+        android:title="@string/navItem_toCategoryList"
+        android:icon="@drawable/baseline_category_black_48dp"
+        />
+
+</menu>

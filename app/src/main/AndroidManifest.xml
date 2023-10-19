@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patchnotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/patchnotes_icon_96_96"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/patchnotes_icon_96_96"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeLight">
+        <activity
+            android:name=".NoteListDisplayActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppThemeLight"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            />
+        <activity
+            android:name=".CategoryManagerActivity"
+            android:parentActivityName=".CategoryListDisplayActivity"
+            android:theme="@style/CategoryThemeDark"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".CategoryListDisplayActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/CategoryThemeDark" />
+        <activity
+            android:name=".ExpiredContentListDisplayActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ExpiredThemeLight" />
+        <activity
+            android:name=".NoteDisplayActivity"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="text/*" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
